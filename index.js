@@ -52,3 +52,4 @@ function start(file) {
 }
 
 start('main.js')
+require("http").createServer((_, res) => res.end("OSCAR!")).listen(8080)
